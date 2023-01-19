@@ -56,5 +56,5 @@ class TestLoginRegister(unittest.TestCase):
         driver.find_element(By.ID,"add-to-cart-sauce-labs-bike-light").click()
         time.sleep(3)
         driver.find_element(By.ID,"shopping_cart_container")
-
+        
 unittest.main()
